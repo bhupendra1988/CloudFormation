@@ -1,0 +1,75 @@
+[{
+		"ParameterKey": "AppServerKeyName",
+		"ParameterValue": "ctmp-prod"
+	},
+	{
+		"ParameterKey": "AppServerHostName",
+		"ParameterValue": "ctmp-api-prod"
+	},
+	{
+		"ParameterKey": "AppServerImageId",
+		"ParameterValue": "ami-0c860fd4902cd632a"
+	},
+	{
+		"ParameterKey": "VpcId",
+		"ParameterValue": "vpc-932d3df4"
+	},
+	{
+		"ParameterKey": "AppServerSubnet",
+		"ParameterValue": "subnet-4d90d404"
+	},
+	{
+		"ParameterKey": "ELBSubnet1",
+		"ParameterValue": "subnet-4d90d404"
+	},
+	{
+		"ParameterKey": "ELBSubnet2",
+		"ParameterValue": "subnet-e0486487"
+	},
+	{
+		"ParameterKey": "AppServerInstanceType",
+		"ParameterValue": "t2.medium"
+	},
+	{
+		"ParameterKey": "AppServerSecurityGroupName",
+		"ParameterValue": "SG-ctmp-api-prod"
+	},
+	{
+		"ParameterKey": "ELBName",
+		"ParameterValue": "CTMP-API-PROD-LB"
+	},
+	{
+		"ParameterKey": "ELBSecurityGroupName",
+		"ParameterValue": "SG-CTMP-API-PROD-LB"
+	},
+
+	{
+		"ParameterKey": "Application",
+		"ParameterValue": "sdtmdss"
+	},
+	{
+		"ParameterKey": "Consumer",
+		"ParameterValue": "mrl_sdss_prod@merck.com"
+	},
+	{
+		"ParameterKey": "Costcenter",
+		"ParameterValue": "10002479"
+	},
+	{
+		"ParameterKey": "Division",
+		"ParameterValue": "MRL"
+	},
+	{
+		"ParameterKey": "Environment",
+		"ParameterValue": "Production"
+	},
+	{
+		"ParameterKey": "PatchGroup",
+		"ParameterValue": "Managed"
+	},
+	
+	{
+		"ParameterKey": "CertificateARN",
+		"ParameterValue": "arn:aws:iam::331779527936:server-certificate/sdtmdss-prod-2018(IAM)"
+	}
+]
